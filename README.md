@@ -1,66 +1,12 @@
-## Foundry
+## Foundry Initial Project
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+**This repo was completed as an introductory to Solidity programming using Foundry.**
 
-Foundry consists of:
+Skills Learned:
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
-
-## Documentation
-
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+-   **Basic Smart Contracts**: Created two smart contracts with functionality to raise funds from a number of users where only the owner can withdraw funds. Also explored fallback and receive functions. 
+-   **Chainlink Oracles**: Used Chainlink price feeds to convert ETH -> USD
+-   **Deployment Scripts**: Created modular deployment scripts using Foundry.
+-   **Test Scripts**: Created modular test scripts using Foundry for Unit Testing, Integration Testing, and Forked Testing.
+-   **Make Files**: How to use a make file to create shortcuts for running commands from the terminal.
+-   **Gas Optimization**: Learned how storage and memory can impact gas costs. Explored naming convention best pratices. 
